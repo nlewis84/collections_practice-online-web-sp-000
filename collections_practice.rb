@@ -53,3 +53,7 @@ def add_s(array)
     x += 1
   end
 end
+
+def add_s(array)
+  array.each_with_index
+end
