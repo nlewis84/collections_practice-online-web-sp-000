@@ -47,7 +47,7 @@ end
 
 
 def add_s(array)
-  array.each_with_index(!2).collect do |element, index|
+  array.each_with_index(!2).collect do |index|
     index << "s"
   end
 end
