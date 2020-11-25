@@ -44,10 +44,12 @@ def sum_array(array)
   end
 end
 
-
-
 def add_s(array)
-  array.each_with_index(!2).collect do |index|
-    index << "s"
+  x = 0
+  array.each do |index|
+    if x != 1
+      index << "s"
+    end
+    x += 1
   end
 end
